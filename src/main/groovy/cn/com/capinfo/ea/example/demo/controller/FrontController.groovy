@@ -14,6 +14,7 @@ class FrontController {
     @RequestMapping(value = "/")
     public String index(HttpServletRequest request, Model model) {
         //log
+        //log
         return "/front/index"
     }
 }
