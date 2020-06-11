@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest
 class FrontController {
     @RequestMapping(value = "/")
     public String index(HttpServletRequest request, Model model) {
+        //log
         return "/front/index"
     }
 }
